@@ -1,0 +1,29 @@
+a:2:{s:4:"meta";a:3:{s:5:"title";s:11:"PMK TSVoila";s:5:"descr";s:165:"Provides an alternate TemplaVoila rendering. With this you can render each TV column separately in your Typoscript setup. (Similar to the "old-style" colPos method.)";s:7:"options";a:2:{s:10:"usageCount";N;s:19:"includeCodeAbstract";N;}}s:5:"files";a:1:{s:14:"MD5_5ea5cfd77f";a:4:{s:8:"filename";s:31:"pi1/class.tx_pmktsvoila_pi1.php";s:8:"filesize";i:3940;s:6:"header";a:5:{s:4:"text";s:237:"
+
+Plugin 'PMK TSVoila' for the 'pmktsvoila' extension.
+
+This extension provides an alternate TemplaVoila rendering.
+With this you can render each TV column separately in your Typoscript setup.
+(Similar to the "old-style" colPos method.)
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:3:{i:0;s:31:"@author Peter Klein <pmk@io.dk>";i:1;s:14:"@package TYPO3";i:2;s:25:"@subpackage tx_pmktsvoila";}s:11:"other_index";a:3:{s:7:"@author";a:1:{i:0;s:23:"Peter Klein <pmk@io.dk>";}s:8:"@package";a:1:{i:0;s:6:"TYPO3 ";}s:11:"@subpackage";a:1:{i:0;s:14:"tx_pmktsvoila ";}}}s:3:"DAT";a:3:{i:1;a:8:{s:6:"header";s:46:"class tx_pmktsvoila_pi1 extends tslib_pibase {";s:5:"class";i:1;s:11:"parentClass";s:17:"tx_pmktsvoila_pi1";s:4:"cDat";a:5:{s:4:"text";s:237:"
+
+Plugin 'PMK TSVoila' for the 'pmktsvoila' extension.
+
+This extension provides an alternate TemplaVoila rendering.
+With this you can render each TV column separately in your Typoscript setup.
+(Similar to the "old-style" colPos method.)
+";s:5:"param";a:0:{}s:6:"return";a:2:{i:0;s:6:"[type]";i:1;s:3:"...";}s:5:"other";a:3:{i:0;s:31:"@author Peter Klein <pmk@io.dk>";i:1;s:14:"@package TYPO3";i:2;s:25:"@subpackage tx_pmktsvoila";}s:11:"other_index";a:3:{s:7:"@author";a:1:{i:0;s:23:"Peter Klein <pmk@io.dk>";}s:8:"@package";a:1:{i:0;s:6:"TYPO3 ";}s:11:"@subpackage";a:1:{i:0;s:14:"tx_pmktsvoila ";}}}s:7:"content";s:0:"";s:12:"content_size";i:260;s:13:"content_lines";i:7;s:6:"atLine";i:50;}i:3;a:4:{s:6:"header";s:37:"function getTVUids($content, $conf) {";s:11:"parentClass";s:17:"tx_pmktsvoila_pi1";s:4:"cDat";a:3:{s:4:"text";s:242:"
+
+Returns comma seperated list of tt_content uids used on TemplaVoila page.
+
+Allowed $conf parameters:
+  pageUid; Id of page from where elements come from. (Defaults to current page)
+  flexField; Name of TemplaVoila FlexForm field to render.
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:29:"$content: Typoscript content.";}i:1;a:2:{i:0;s:5:"array";i:1;s:31:"$conf: Typoscript config array.";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:39:"comma seperated list of tt_content uids";}}s:6:"atLine";i:69;}i:5;a:7:{s:6:"header";s:40:"function getTVContent($content, $conf) {";s:11:"parentClass";s:17:"tx_pmktsvoila_pi1";s:4:"cDat";a:3:{s:4:"text";s:222:"
+
+Returns tt_content elements used on TemplaVoila page.
+
+Allowed $conf parameters:
+  pageUid; Id of page from where elements come from. (Defaults to current page)
+  flexField; Name of TemplaVoila FlexForm field to render.
+";s:5:"param";a:2:{i:0;a:2:{i:0;s:6:"string";i:1;s:29:"$content: Typoscript content.";}i:1;a:2:{i:0;s:5:"array";i:1;s:31:"$conf: Typoscript config array.";}}s:6:"return";a:2:{i:0;s:6:"string";i:1;s:19:"tt_content elements";}}s:7:"content";s:0:"";s:12:"content_size";i:449;s:13:"content_lines";i:15;s:6:"atLine";i:88;}}}}}
