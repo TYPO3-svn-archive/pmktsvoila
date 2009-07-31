@@ -58,16 +58,16 @@
 
 
 		/**
- * Returns comma separated list of tt_content uids used on TemplaVoila page.
- *
- * Allowed $conf parameters:
- *   pageUid; Id of page from where elements come from. (Defaults to current page)
- *   flexField; Name of TemplaVoila FlexForm field to render.
- *
- * @param	string		$content: Typoscript content.
- * @param	array		$conf: Typoscript config array.
- * @return	string		comma seperated list of tt_content uids
- */
+		 * Returns comma separated list of tt_content uids used on TemplaVoila page.
+		 *
+		 * Allowed $conf parameters:
+		 *   pageUid; Id of page from where elements come from. (Defaults to current page)
+		 *   flexField; Name of TemplaVoila FlexForm field to render.
+		 *
+		 * @param	string		$content: Typoscript content.
+		 * @param	array		$conf: Typoscript config array.
+		 * @return	string		comma seperated list of tt_content uids
+		 */
 		function getTVUids($content, $conf) {
 			$pageUid = intval($this->cObj->stdWrap($conf['pageUid'], $conf['pageUid.']));
 			$flexField = htmlspecialchars($this->cObj->stdWrap($conf['flexField'], $conf['flexField.']));
@@ -77,16 +77,16 @@
 		}
 
 		/**
- * Returns tt_content elements used on TemplaVoila page.
- *
- * Allowed $conf parameters:
- *   pageUid; Id of page from where elements come from. (Defaults to current page)
- *   flexField; Name of TemplaVoila FlexForm field to render.
- *
- * @param	string		$content: Typoscript content.
- * @param	array		$conf: Typoscript config array.
- * @return	string		tt_content elements
- */
+		 * Returns tt_content elements used on TemplaVoila page.
+		 *
+		 * Allowed $conf parameters:
+		 *   pageUid; Id of page from where elements come from. (Defaults to current page)
+		 *   flexField; Name of TemplaVoila FlexForm field to render.
+		 *
+		 * @param	string		$content: Typoscript content.
+		 * @param	array		$conf: Typoscript config array.
+		 * @return	string		tt_content elements
+		 */
 		function getTVContent($content, $conf) {
 			$uids = explode(',', $this->getTVUids($content, $conf));
 			foreach ($uids as $uid) {
