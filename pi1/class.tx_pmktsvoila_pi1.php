@@ -58,7 +58,7 @@
 
 
 		/**
- * Returns comma seperated list of tt_content uids used on TemplaVoila page.
+ * Returns comma separated list of tt_content uids used on TemplaVoila page.
  *
  * Allowed $conf parameters:
  *   pageUid; Id of page from where elements come from. (Defaults to current page)
